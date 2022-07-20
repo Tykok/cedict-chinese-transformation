@@ -1,0 +1,6 @@
+/CHANGELOG.md merge=union
+*           text=auto
+*.js		text eol=lf
+*.sh        text eol=lf
+*.md        text=auto
+*.txt       text

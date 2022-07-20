@@ -1,0 +1,79 @@
+name: Feature report from 🌱
+description: Tell us if you have any idea of features 🔥💭
+title: "[Feat]: "
+labels: ["feature", "open"]
+assignees:
+  - octocat
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report of an idea of a new feature ! 
+        Please describe the idea in as much detail as possible.
+        You can use markdown in many textarea to make it more readable.
+
+        Thanks! And have a nice day 🎇
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details 📫
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: textarea
+    id: feature-details
+    attributes:
+      label: Expecting for this feature 🚀
+      description: Explain what you want in this feature concretely (explain more please, if you don't add user-story beginning)
+      placeholder: Tell us what you want to do !
+      value: "I want to have an API point to get secret data (ho no) 💥"
+      render: Markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User Story 📝
+      description: |
+        Also tell us, what did you expect to happen ❓
+        This part is not required if you can't.
+        If you want many information about [user story](https://en.wikipedia.org/wiki/User_story).
+      placeholder: Write some user story for us !
+      value: "As admin i can administrate the preferences of the project"
+      render: Markdown
+    validations:
+      required: false
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation about this feature proposal ✨
+      description: |
+        Add here your motivation for this feature, and what is gonna provide for all of users.
+      render: Markdown
+    validations:
+      required: false
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Any example or any resources 💡
+      description: |
+        Add here any resources, URL, files, or anything gonna help us.
+      render: Markdown
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
