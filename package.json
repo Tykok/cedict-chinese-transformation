@@ -1,11 +1,26 @@
 {
-  "name": "read-cedict",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cedict-dictionnary",
+  "version": "1.2.0",
+  "description": "The cedict dictionnary get and format the cedict to a JSON file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tsc",
+    "build:watch": "npm run build -w",
+    "start": "npm run build && node index.js",
+    "get-cedict": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/superagent": "^4.1.15",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "extract-zip": "^2.0.1",
+    "superagent": "^8.0.3",
+    "unzip": "^0.1.11"
+  }
 }

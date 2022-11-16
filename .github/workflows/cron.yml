@@ -1,0 +1,33 @@
+name: Update / Publish Cedict
+on:
+  schedule:
+    - cron: '00 6 15 * *' 
+  workflow_dispatch:
+
+jobs:
+  update-cedict:
+    name: Update Cedict and publish new version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm i
+      - name: Update cedict.json
+        run: |
+          npm run get-cedict
+          git config --global user.name 'CI'
+          git config --global user.email 'ci.cron@github.com'
+          git add .
+          git commit -m "Update cedict.json"
+          npm version minor
+          git push
+          git fetch
+          git pull
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
