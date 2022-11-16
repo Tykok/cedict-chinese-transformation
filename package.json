@@ -1,13 +1,13 @@
 {
   "name": "cedict-dictionnary",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The cedict dictionnary get and format the cedict to a JSON file",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "build:watch" : "npm run build -w",
+    "build:watch": "npm run build -w",
     "start": "npm run build && node index.js",
-    "get-cedict" : "npm start"
+    "get-cedict": "npm start"
   },
   "author": "",
   "license": "ISC",
