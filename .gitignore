@@ -1,4 +1,5 @@
 node_modules
 dist
-lib/cedict_ts.u8
-lib/cedict_1_0_ts_utf-8_mdbg.zip
+data/cedict_ts.u8
+data/cedict_1_0_ts_utf-8_mdbg.zip
+.vscode
