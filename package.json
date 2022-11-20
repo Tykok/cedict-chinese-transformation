@@ -7,11 +7,27 @@
     "build": "npx tsc",
     "build:watch": "npm run build -w",
     "start": "npm run build && node index.js",
-    "get-cedict": "node dist/format-cedict.js"
+    "get-cedict": "node dist/format-cedict.js",
+    "rn": "release-note-now",
+    "get-version": "echo $npm_package_version"
   },
-  "author": "Tykok",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tykok/cedict-chinese-transformation"
+  },
+  "author": {
+    "name": "Tykok",
+    "email": "treportelie12@gmail.com",
+    "url": "https://github.com/Tykok"
+  },
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "homepage": "https://github.com/Tykok/cedict-chinese-transformation#readme",
   "license": "MIT",
   "devDependencies": {
+    "@pictarine/release-note-now": "^1.0.8",
     "@types/node": "^18.11.9",
     "@types/superagent": "^4.1.15",
     "typescript": "^4.9.3"
@@ -21,5 +37,10 @@
     "superagent": "^8.0.3",
     "unzip": "^0.1.11"
   },
-  "keywords": ["cedict", "dictionary", "chinese", "pinyin"]
+  "keywords": [
+    "cedict",
+    "dictionary",
+    "chinese",
+    "pinyin"
+  ]
 }

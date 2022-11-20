@@ -1,0 +1,22 @@
+name: Push on main
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Install dependencies"
+        run: npm i
+      - name: "Launch release note generation"
+        run: |
+          npm run rn \
+          -- \
+          -t ${{ secrets.GITHUB_TOKEN }} \
+          -r Tykok/cedict-chinese-transformation \
+          -k "feat:Features,fix:Fixes,conf:Configuration,doc:Documentation" \
+          -v "$(" \
+          -b main \
+          -s full 

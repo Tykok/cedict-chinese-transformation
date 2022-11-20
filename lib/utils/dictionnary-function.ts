@@ -17,9 +17,6 @@ export const getByPinyin = (character: string): ChineseWord | undefined => {
   return getCedict().find(word => word.pinyin === character)
 }
 
-/**
- * Search for the english word
- */
 export const getByEnglish = (sentence: string): Array<ChineseWord> | undefined => {
   return getCedict().filter(word => word.english.includes(sentence))
 }
