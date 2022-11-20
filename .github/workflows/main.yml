@@ -14,9 +14,9 @@ jobs:
         run: |
           npm run rn \
           -- \
-          --token ${{ secrets.GITHUB_TOKEN }} \
-          --repo Tykok/cedict-chinese-transformation \
-          --keys "Feat:Features,Fix:Fixes,Conf:Configuration,Doc:Documentation" \
-          --version "$(grep version package.json | awk -F \" '{print $4}')" \
-          --branch main \
-          --style full 
+          -t ${{ secrets.GITHUB_TOKEN }} \
+          -r Tykok/cedict-chinese-transformation \
+          -k "feat:Features,fix:Fixes,conf:Configuration,doc:Documentation" \
+          -v "package.json:package.json" \
+          -b main \
+          -s full 
