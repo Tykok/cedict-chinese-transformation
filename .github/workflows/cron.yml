@@ -12,7 +12,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: 'https://registry.npmjs.org'
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install dependencies
@@ -28,6 +27,3 @@ jobs:
           git push
           git fetch
           git pull
-          npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

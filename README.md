@@ -1,17 +1,19 @@
-
-<p align="center">
-    Add somes badges (License, CI status, coverage, ...)
-</p>
+<p align="center"><img src="./static/cedict.png" width="35%" heigth="20%"/></p>
 
 <!-- A spacer -->
 <p>&nbsp;</p>
 
 <!-- Add your image here -->
-<p align="center"><img src="" width="80%"/></p>
 
-<h2 align="center">__project</h2>
+<h2 align="center">Cedict Dictionary</h2>
 
-**Little description here to your [__project][projectLink]**
+[![Node.js Package](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml)
+
+The [Cedict Dictionary][projectLink] was created to use the Chinese dictionary easily. 
+
+With this library, you can use the JSON file which will be updated every month with the Cedict. You can also use the already written functions to explore the dictionary and look for the words you want.
+
+> To knwo more about the Cedict, go on this [page](https://www.mdbg.net/chinese/dictionary?page=cedict).
 
 ## Table of Contents
 
@@ -29,60 +31,44 @@
 
 ## Getting Started
 
-<!-- Explain how to start with this project -->
+First to use the library, you should use this command into your project :
 
-**Install ...**
-
-**Run ...**
-
-**Use globally ...**
+```shell
+npm i cedict-dictionary
+```
 
 ## Running from command line
 
-<!-- Explain here how to run the project from the CLI -->
-
-## Additional Configuration
-
-### Basic Configuration
-
-<!-- Basic configuration of the project (.env / yarn commands / ...)-->
+A command line will be come soon, stay up to date !
 
 ## Documentation
 
-Learn more about using [__project][projectLink]
-
-- [Getting Started][DocStartedLink]
-- [Guides][DocGuideLink]
-- [API Reference][DocAPILink]
-- [Configuring][DocConfiguringLink]
-
+The documentation will be come soon, stay up to date !
 
 ## Contributing
 
-Development happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving this __project.
+Development happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. 
+
+Read below to learn how you can take part in improving this Cedict Dictionary.
 
 ### [Code of Conduct][codeOfCondutLink]
 
-We adopted a Code of Conduct that we expect __project participants to adhere to. Please read [the full text][codeOfCondutLink] so that you can understand what actions will and will not be tolerated.
+We adopted a Code of Conduct that we expect Cedict Dictionary participants to adhere to. Please read [the full text][codeOfCondutLink] so that you can understand what actions will and will not be tolerated.
 
 ### [Contributing Guide][contributingLink]
 
-Read our [contributing guide][contributingLink] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to our __project.
+Read our [contributing guide][contributingLink] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to our Cedict Dictionary.
 
 ## Credits
 
-__project exists thanks to all the people who [contribute][contributingLink].
+Cedict Dictionary exists thanks to all the people who [contribute][contributingLink].
 
 ## License
 
-__project is [MIT licensed][licenseLink].
+Cedict Dictionary is [MIT licensed][licenseLink].
 
 
-[projectLink]: Title
-[licenseLink]: https://opensource.org/licenses/MIT
+[projectLink]: https://github.com/Tykok/cedict-chinese-transformation
+[licenseLink]: ./LICENSE.md
 [contributingLink]: ./CONTRIBUTING.md
 [codeOfCondutLink]: ./CODE_OF_CONDUCT.md
-[DocAPILink]: .
-[DocConfiguringLink]: .
-[DocGuideLink]: .
-[DocStartedLink]: .
