@@ -1,5 +1,4 @@
 node_modules
-dist
 data/cedict_ts.u8
 data/cedict_1_0_ts_utf-8_mdbg.zip
 .vscode

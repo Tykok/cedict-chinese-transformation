@@ -1,7 +1,7 @@
 {
-  "name": "cedict-dictionnary",
+  "name": "cedict-dictionary",
   "version": "1.0.0",
-  "description": "The cedict dictionnary get and format the cedict to a JSON file",
+  "description": "The cedict dictionary get and format the cedict to a JSON file",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
