@@ -1,0 +1,42 @@
+name: Build the project
+on:
+  push:
+    branches:
+      - develop
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install dependencies
+        run: npm i
+      - name: Make the build
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'ci@github.com'
+          git add .
+          git commit -m "[Conf] : Build the project"
+          git push
+  create-release:
+    if: ${{ $GITHUB_REF_NAME == 'main' }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Install dependencies"
+        run: npm i
+      - name: "Launch release note generation"
+        run: |
+          npm run rn \
+          -- \
+          -t ${{ secrets.GITHUB_TOKEN }} \
+          -r Tykok/cedict-chinese-transformation \
+          -k "feat:Features,fix:Fixes,conf:Configuration,doc:Documentation" \
+          -v "package.json:package.json" \
+          -b main \
+          -s full 
