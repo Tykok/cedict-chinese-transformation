@@ -1,0 +1,12 @@
+AUTHORS.md
+CHANGELOG.md
+CITATION.cff
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+INSTALL.md
+node_modules
+.github
+.vscode
+.gitattributes
+.gitignore
+.tsbuildinfo
