@@ -23,7 +23,7 @@ jobs:
           git commit -m "[Conf] : Build the project"
           git push
   create-release:
-    if: ${{ $GITHUB_REF_NAME == 'main' }}
+    if: ${{ github.REF_NAME == 'main' }}
     runs-on: ubuntu-latest
     needs: build
     steps:
