@@ -1,13 +1,9 @@
-cff-version: 1.2.0
+cff-version: 1.0.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Treport"
   given-names: "Treport Elie"
-  orcid: "https://orcid.org/my-orcid?orcid=0000-0002-2263-0383"
-- family-names: "Contributor"
-  given-names: "New"
-  orcid: "https://orcid.org/my-orcid?orcid=0000-0002-2263-0383"
-title: "Your application title"
+title: "Cedict dictionary"
 version: 1.0.0
-date-released: 2000-01-01
+date-released: 2022-11-16
 url: "https://github.com/your-github-repo"
