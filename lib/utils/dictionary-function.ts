@@ -1,7 +1,7 @@
 import cedict from '../../data/cedict.json'
 import { ChineseWord } from '../types/ChineseWord'
 
-export const getCedict = (): Array<ChineseWord> => {
+export const getCedict = (): ChineseWord[] => {
   return cedict
 }
 
@@ -17,10 +17,10 @@ export const getByPinyin = (character: string): ChineseWord | undefined => {
   return getCedict().find(word => word.pinyin === character)
 }
 
-export const getByEnglish = (sentence: string): Array<ChineseWord> | undefined => {
+export const getByEnglish = (sentence: string): ChineseWord[] | undefined => {
   return getCedict().filter(word => word.english.includes(sentence))
 }
 
-export const allOccurenceOfTraditional = (traditional: string): Array<ChineseWord> | undefined => {
+export const allOccurenceOfTraditional = (traditional: string): ChineseWord[] | undefined => {
   return getCedict().filter(word => word.traditional.includes(traditional))
 }

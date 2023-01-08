@@ -1,3 +1,3 @@
-import { getByTraditional } from './utils/dictionary-function'
+import { getByEnglish, getByPinyin, getBySimplified, getByTraditional } from './utils/dictionary-function'
 
-console.log(getByTraditional('C盤'))
+exports = { getByTraditional, getByEnglish, getByPinyin, getBySimplified }

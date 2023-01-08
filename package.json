@@ -1,11 +1,11 @@
 {
-  "name": "cedict-dictionnary",
+  "name": "@tykok/cedict-dictionnary",
   "version": "1.2.0",
   "description": "The cedict dictionnary get and format the cedict to a JSON file",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx tsc",
-    "build:watch": "npm run build -w",
+    "build:watch": "tsc-watch --onFailure \"echo Something gone wrong... Fix it, or report a bug on $npm_package_repository_url\" --onSuccess \"echo All it's OK !\"",
     "start": "npm run build && node index.js",
     "get-cedict": "node dist/format-cedict.js",
     "rn": "release-note-now",
@@ -30,6 +30,7 @@
     "@pictarine/release-note-now": "^1.0.8",
     "@types/node": "^18.11.9",
     "@types/superagent": "^4.1.15",
+    "tsc-watch": "^6.0.0",
     "typescript": "^4.9.3"
   },
   "dependencies": {
@@ -41,6 +42,7 @@
     "cedict",
     "dictionary",
     "chinese",
-    "pinyin"
+    "pinyin",
+    "translate"
   ]
 }
