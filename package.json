@@ -2,12 +2,13 @@
   "name": "@tykok/cedict-dictionnary",
   "version": "1.2.0",
   "description": "The cedict dictionnary get and format the cedict to a JSON file",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "npx tsc",
+    "prepare": "npm run build",
     "build:watch": "tsc-watch --onFailure \"echo Something gone wrong... Fix it, or report a bug on $npm_package_repository_url\" --onSuccess \"echo All it's OK !\"",
-    "start": "npm run build && node index.js",
-    "get-cedict": "node dist/format-cedict.js",
+    "start": "node lib/index.js",
+    "get-cedict": "node lib/format-cedict.js",
     "rn": "release-note-now",
     "get-version": "echo $npm_package_version"
   },
@@ -21,8 +22,7 @@
     "url": "https://github.com/Tykok"
   },
   "bugs": {
-    "url": "https://github.com/Tykok/cedict-chinese-transformation/issues/new?assignees=octocat&labels=bug%2Copen&template=bug.yml&title=%5BBug%5D%3A+",
-    "email": ""
+    "url": "https://github.com/Tykok/cedict-chinese-transformation/issues/new?assignees=octocat&labels=bug%2Copen&template=bug.yml&title=%5BBug%5D%3A+"
   },
   "homepage": "https://github.com/Tykok/cedict-chinese-transformation#readme",
   "license": "MIT",
@@ -30,7 +30,10 @@
     "@pictarine/release-note-now": "^1.0.8",
     "@types/node": "^18.11.9",
     "@types/superagent": "^4.1.15",
+    "prettier": "^2.8.2",
     "tsc-watch": "^6.0.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.9.3"
   },
   "dependencies": {
