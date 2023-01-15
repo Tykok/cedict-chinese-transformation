@@ -8,6 +8,7 @@ jobs:
   update-cedict:
     name: Update Cedict and publish new version
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - uses: actions/setup-node@v3
         with:
