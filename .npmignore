@@ -14,6 +14,3 @@ src
 tsconfig.json
 tslint.json
 .prettierrc
-data/cedict_1_0_ts_utf-8_mdbg.zip
-data/.gitkeep
-data/cedict_ts.u8
