@@ -24,3 +24,8 @@ export const getByEnglish = (sentence: string): ChineseWord[] | undefined => {
 export const allOccurenceOfTraditional = (traditional: string): ChineseWord[] | undefined => {
   return getCedict().filter((word) => word.traditional.includes(traditional));
 };
+
+export const getRandomWord = (): ChineseWord => {
+  const randomIndex = Math.floor(Math.random() * getCedict().length);
+  return getCedict()[randomIndex];
+};
