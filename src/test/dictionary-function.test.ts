@@ -1,5 +1,11 @@
 import ChineseWord from '../types/ChineseWord';
-import { getByEnglish, getByPinyin, getBySimplified, getByTraditional } from '../utils/dictionary-function';
+import {
+  getByEnglish,
+  getByPinyin,
+  getBySimplified,
+  getByTraditional,
+  getRandomWord,
+} from '../utils/dictionary-function';
 
 describe('Check property return of dictionary function', () => {
   it('getByTraditional should have ChineseWord property', () => {
@@ -32,6 +38,15 @@ describe('Check property return of dictionary function', () => {
 
   it('getByPinyin should have ChineseWord property', () => {
     const expected = getByPinyin('yi1') as ChineseWord;
+
+    expect(expected).toHaveProperty('traditional');
+    expect(expected).toHaveProperty('simplified');
+    expect(expected).toHaveProperty('pinyin');
+    expect(expected).toHaveProperty('english');
+  });
+
+  it('getRandomWord should get a random Chinese word', () => {
+    const expected = getRandomWord();
 
     expect(expected).toHaveProperty('traditional');
     expect(expected).toHaveProperty('simplified');
