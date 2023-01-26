@@ -1,4 +1,4 @@
-declare module "*cedict.json" {
+declare module '*cedict.json' {
   const value: any;
   export default value;
 }

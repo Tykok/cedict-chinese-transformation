@@ -7,7 +7,9 @@
 
 <h2 align="center">Cedict Dictionary</h2>
 
-[![Node.js Package](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml)
+[![Publish package](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml)
+[![Linter](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml)
+[![Test](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml)
 
 The [Cedict Dictionary][projectLink] was created to use the Chinese dictionary easily. 
 
@@ -20,8 +22,6 @@ With this library, you can use the JSON file which will be updated every month w
 - [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
 - [Running from command line](#running-from-command-line)
-- [Additional Configuration](#additional-configuration)
-  - [Basic Configuration](#basic-configuration)
 - [Documentation](#documentation)
 - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
