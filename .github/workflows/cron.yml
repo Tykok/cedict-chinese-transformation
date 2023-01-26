@@ -26,5 +26,3 @@ jobs:
           git commit -m "Update cedict.json"
           npm version minor
           git push
-          git fetch
-          git pull
