@@ -4,3 +4,4 @@ data/cedict_1_0_ts_utf-8_mdbg.zip
 dist
 .vscode
 yarn.lock
+lib
