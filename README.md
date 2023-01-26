@@ -7,15 +7,48 @@
 
 <h2 align="center">Cedict Dictionary</h2>
 
-[![Publish package](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml)
-[![Linter](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml)
-[![Test](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml)
+
+
+<h3 align="center"></h3>
+
+<div align="center">
+
+![GitHub License](https://img.shields.io/github/license/tykok/cedict-chinese-transformation?style=plastic)
+![GitHub package.json version (branch)](https://img.shields.io/github/package-json/v/tykok/cedict-chinese-transformation/main?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/tykok/cedict-chinese-transformation?style=plastic)
+
+</div>
+
+---
+
+<h3 align="center">GitHub Workflow</h3>
+<br/>
+<div align="center">
+
+<!-- [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest) -->
+
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/on-push-main.yml?label=Publish%20release&style=plastic)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/cron.yml?label=Get%20new%20cedict&style=plastic)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/on-develop-pr.yml?label=Test%20and%20build&style=plastic)
+
+</div>
+
+---
+
+<br/>
 
 The [Cedict Dictionary][projectLink] was created to use the Chinese dictionary easily. 
 
-With this library, you can use the JSON file which will be updated every month with the Cedict. You can also use the already written functions to explore the dictionary and look for the words you want.
+With this library, you can use the many methods to search :
 
-> To knwo more about the Cedict, go on this [page](https://www.mdbg.net/chinese/dictionary?page=cedict).
+1. Chinese character
+2. Simplified Chinese character
+3. Intonation in "Pinyin"
+4. English traduction
+
+ Or you can simply create tour own methods with the Cedict JSON file which will be updated every time a new version of the Cedict appear. 
+
+> To know more about the Cedict, go on this [page](https://www.mdbg.net/chinese/dictionary?page=cedict).
 
 ## Table of Contents
 
@@ -26,15 +59,13 @@ With this library, you can use the JSON file which will be updated every month w
 - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
   - [Contributing Guide](#contributing-guide)
-- [Credits](#credits)
-- [License](#license)
 
 ## Getting Started
 
 First to use the library, you should use this command into your project :
 
 ```shell
-npm i cedict-dictionary
+npm i @tykok/cedict-dictionary
 ```
 
 ## Running from command line
@@ -58,14 +89,6 @@ We adopted a Code of Conduct that we expect Cedict Dictionary participants to ad
 ### [Contributing Guide][contributingLink]
 
 Read our [contributing guide][contributingLink] to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to our Cedict Dictionary.
-
-## Credits
-
-Cedict Dictionary exists thanks to all the people who [contribute][contributingLink].
-
-## License
-
-Cedict Dictionary is [MIT licensed][licenseLink].
 
 
 [projectLink]: https://github.com/Tykok/cedict-chinese-transformation
