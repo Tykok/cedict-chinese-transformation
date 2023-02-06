@@ -1,9 +1,9 @@
-cff-version: 1.0.0
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Treport"
   given-names: "Treport Elie"
 title: "Cedict dictionary"
-version: 1.0.0
-date-released: 2022-11-16
-url: "https://github.com/your-github-repo"
+version: 1.5.0
+date-released: 2023-01-27
+url: "https://github.com/Tykok/cedict-chinese-transformation"
