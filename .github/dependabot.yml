@@ -1,0 +1,11 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: "[CI] "
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
