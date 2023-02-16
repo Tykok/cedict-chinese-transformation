@@ -9,7 +9,10 @@ on:
       - labeled
       - unlabeled
       - ready_for_review
-
+permissions:
+  pull-requests: write
+  contents: write
+  
 jobs:
   automerge:
     runs-on: ubuntu-latest
