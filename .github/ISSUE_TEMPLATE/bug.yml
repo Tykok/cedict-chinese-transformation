@@ -1,7 +1,7 @@
 name: Bug Report from 🐞
 description: If u see any bug, please click here 🐞🐛
-title: "[Bug]: "
-labels: ["bug", "open"]
+title: "Fix: "
+labels: ["bug"]
 assignees:
   - octocat
 body:
@@ -15,37 +15,7 @@ body:
 
         Thanks! And have a nice day 🎇
 
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details 📫
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened ❓
-      description: Also tell us, what did you expect to happen ?
-      placeholder: Tell us what you see !
-      value: "A bug happened 💥"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: severity
-    attributes:
-      label: Severity / Criticality of the bug(s) 👀
-      options:
-        - Low
-        - Medium
-        - High
-        - Critical
-    validations:
-      required: true
-
+  # Make version for OS / Node / npm version
   - type: textarea
     id: os-version
     attributes:
@@ -62,6 +32,30 @@ body:
       render: Markdown
     validations:
       required: false
+
+
+# Add smiley
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity / Criticality of the bug(s) 👀
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened ❓
+      description: Also tell us, what did you expect to happen ?
+      placeholder: Tell us what you see !
+      value: "A bug happened 💥"
+    validations:
+      required: true
 
   - type: textarea
     id: logs
@@ -80,15 +74,14 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: any-information-we-need
+  - type: input
+    id: contact
     attributes:
-      label: Any information about the bug(s) we need 🚥
-      description: |
-        Links? References? Anything that will give us more context about the issue you are encountering!
-        tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+      label: Contact Details 📫
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
-      required: true
+      required: false
 
   - type: checkboxes
     id: terms
