@@ -1,0 +1,6 @@
+site_name: Cedict dictionary - Documentation
+nav:
+    - Home: index.md
+    - Cedict: cedict.md
+    - Cedict-Cli: cedict-cli.md
+theme: readthedocs
