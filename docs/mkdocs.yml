@@ -1,5 +1,0 @@
-site_name: My Docs
-nav:
-    - Home: ../README.md
-    - Cedict: cedict.md
-theme: readthedocs
