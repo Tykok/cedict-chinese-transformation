@@ -4,7 +4,7 @@ Release at : 2023-02-17
 
 ### Configuration
 
-* Update CHANGELOG.md ([`3756dd7`](https://github.com/Tykok/cedict-chinese-transformation/commit/3756dd71411671f528bde6e6704755e2870c4e76))
+* Update condition of workflow and added a workflow to build documentation ([`be43507`](https://github.com/Tykok/cedict-chinese-transformation/commit/be435070ed6a0aeedd2b6e547aac016f3414280d))
 
 # [1.4.15](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.14...1.4.15)
 
