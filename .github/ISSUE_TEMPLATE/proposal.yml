@@ -27,7 +27,6 @@ body:
     attributes:
       label: Explain us your proposal
       placeholder: Add what you want in this textarea
-      render: Markdown
     validations:
       required: true
 

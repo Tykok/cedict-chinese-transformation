@@ -31,17 +31,17 @@ body:
     id: node-version
     attributes:
       label: Node Version 📦
-      description: v
-      placeholder: Use node --version to get the version
+      placeholder: v18.0.0
+      description: Use node --version to get the version
     validations:
       required: true
 
   - type: input
     id: npm-yarn-version
     attributes:
-      label: Npm / Yarn Version 📦
-      description: v
-      placeholder: Use npm --version / yarn --version to get the version
+      label: Npm or Yarn Version 📦
+      placeholder: "npm : 7.24.0 / yarn : 1.22.11"
+      description: Use npm --version / yarn --version to get the version
     validations:
       required: false
 

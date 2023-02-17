@@ -32,7 +32,6 @@ body:
       label: Expecting for this feature 🚀
       description: Type here, what you want to update or add in this project. 
       placeholder: Use markdown if you want.
-      render: Markdown
     validations:
       required: true
 
@@ -43,7 +42,6 @@ body:
       description: |
         Add here any resources, URL, files, or anything gonna help us.
       placeholder: You can use markdown too here
-      render: Markdown
     validations:
       required: false
 
