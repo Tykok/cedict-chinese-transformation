@@ -15,43 +15,52 @@ body:
 
         Thanks! And have a nice day 🎇
 
-  # Make version for OS / Node / npm version
-  - type: textarea
+  - type: dropdown
     id: os-version
     attributes:
-      label: Environment 🔎
-      description: |
-        examples:
-          - **OS**: Ubuntu 20.04
-          - **Node**: 13.14.0
-          - **npm**: 7.6.3
-      value: |
-        - *OS*:
-        - *Node*:
-        - *npm*:
-      render: Markdown
+      label: OS 🔎
+      description: Which OS are you using ?
+      options:
+        - Windows
+        - Mac
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: node-version
+    attributes:
+      label: Node Version 📦
+      description: v
+      placeholder: Use node --version to get the version
+    validations:
+      required: true
+
+  - type: input
+    id: npm-yarn-version
+    attributes:
+      label: Npm / Yarn Version 📦
+      description: v
+      placeholder: Use npm --version / yarn --version to get the version
     validations:
       required: false
 
-
-# Add smiley
   - type: dropdown
     id: severity
     attributes:
       label: Severity / Criticality of the bug(s) 👀
       options:
-        - Low
+        - Low 
         - Medium
         - High
         - Critical
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: what-happened
     attributes:
       label: What happened ❓
-      description: Also tell us, what did you expect to happen ?
       placeholder: Tell us what you see !
       value: "A bug happened 💥"
     validations:
@@ -61,7 +70,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output 📒
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please copy and paste any relevant log output.
       render: Shell
     validations:
       required: false
@@ -70,9 +79,8 @@ body:
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce the bug ➿
-      description: Please copy and paste the steps you used to reproduce the bug(s).
     validations:
-      required: true
+      required: false
 
   - type: input
     id: contact
