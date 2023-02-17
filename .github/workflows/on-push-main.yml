@@ -1,3 +1,4 @@
+name: Release and publish
 on:
   push:
     tags:
@@ -7,7 +8,6 @@ on:
 permissions:
   contents: write
 
-name: Create Release
 
 jobs:
   release:
@@ -46,22 +46,11 @@ jobs:
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-  build-and-deploy-docs:
+  deploy-docs:
     runs-on: ubuntu-latest
     needs: [publish-release, release]
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://registry.npmjs.org/
-      - name : Build the docs with mkdocs 🐍
-        run: |
-          pip install mkdocs
-          yarn build:docs
       - name: Deploy documentation 📃
         uses: JamesIves/github-pages-deploy-action@v4
         with:
