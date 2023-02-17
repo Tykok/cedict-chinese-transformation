@@ -8,6 +8,10 @@ on:
       - "README.md"
       - ".dockerignore"
       - ".gitignore"
+  push:
+    branches:
+      - 'main'
+      - 'develop'
   workflow_dispatch:
 
 jobs:
