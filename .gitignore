@@ -6,3 +6,4 @@ dist
 yarn.lock
 lib
 .tsbuildinfo
+.vscode

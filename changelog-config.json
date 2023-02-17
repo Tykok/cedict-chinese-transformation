@@ -5,11 +5,11 @@
   "commitLimit": false,
   "hide-empty-releases": true,
   "replaceText": {
-    "\\[Feat\\]": "",
-    "\\[Fix\\]": "",
-    "\\[Conf\\]": "",
-    "\\[Clean\\]": "",
-    "\\[Doc\\]": "",
-    "\\[CI\\]": ""
+    "\\[Feat\\] ": "",
+    "\\[Fix\\] ": "",
+    "\\[Conf\\] ": "",
+    "\\[Clean\\] ": "",
+    "\\[Doc\\] ": "",
+    "\\[CI\\] ": ""
   }
 }
