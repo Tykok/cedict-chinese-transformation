@@ -2,9 +2,9 @@
 
 Release at : 2023-02-17
 
-### Configuration
+### Documentation
 
-*  Update CHANGELOG.md ([`c1d4d11`](https://github.com/Tykok/cedict-chinese-transformation/commit/c1d4d11310627863bf1681f036640ba7d75545f5))
+*  Update CITATION.cff ([`f663517`](https://github.com/Tykok/cedict-chinese-transformation/commit/f663517817908c3debda13fa1bc267eb995666d7))
 
 # [1.4.15](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.14...1.4.15)
 
