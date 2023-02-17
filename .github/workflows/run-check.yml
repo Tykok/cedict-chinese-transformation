@@ -1,13 +1,11 @@
-name: Test / Lint
+name: Run check
 
 on:
   pull_request:
     branches:
       - 'develop'
-    paths-ignore:
-      - "README.md"
-      - ".dockerignore"
-      - ".gitignore"
+    paths:
+      - 'src/**.ts'
   push:
     branches:
       - 'main'

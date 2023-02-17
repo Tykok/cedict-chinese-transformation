@@ -1,4 +1,4 @@
-name: Update Changelog
+name: Update documentation
 
 on:
   push:
@@ -6,25 +6,29 @@ on:
       - 'v*'
     branches:
       - "develop"
+    paths:
+      - 'docs/**.md'
+      - 'mkdocs.yml'
   workflow_dispatch:
 
 jobs:
-  update-changelog:
+  build-docs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
       - uses: actions/setup-node@v3
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - name : "Install dependencies"
-        run: npm i
-      - name: Update Changelog
+      - name : Build the docs with mkdocs 🐍
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'ci@github.com'
-          git fetch --all
-          npm run changelog
-          git add CHANGELOG.md 
-          git commit -m "[CI] Update CHANGELOG.md" 
+          pip install mkdocs
+          yarn build:docs
+          git add . 
+          git commit -m "[CI] Update documentation" 
           git push
