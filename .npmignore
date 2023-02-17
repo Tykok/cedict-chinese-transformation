@@ -14,4 +14,4 @@ src
 tsconfig.json
 tslint.json
 .prettierrc
-.auto-changelog
+changelog-config.json

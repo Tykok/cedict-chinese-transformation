@@ -1,1 +1,0 @@
-Explain here how to install and configure your own project
