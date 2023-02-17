@@ -1,0 +1,29 @@
+name: Update CHANGELOG
+
+on:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - "develop"
+  workflow_dispatch:
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://registry.npmjs.org/
+      - name : "Install dependencies"
+        run: npm i
+      - name: Update Changelog
+        run: |
+          git config --global user.name 'CI'
+          git config --global user.email 'ci@github.com'
+          npm run changelog
+          git add CHANGELOG.md 
+          git commit -m "[CI] Update CHANGELOG.md" 
+          git push
