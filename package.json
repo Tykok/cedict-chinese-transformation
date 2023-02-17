@@ -24,7 +24,7 @@
     "get-version": "echo $npm_package_version",
     "dev:docs": "mkdocs serve --watch docs",
     "build:docs": "mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/",
-    "changelog": "auto-changelog && git add CHANGELOG.md && git commit \"[CI] Update CHANGELOG.md\" && git push"
+    "changelog": "auto-changelog --config changelog-config.json"
   },
   "repository": {
     "type": "git",
