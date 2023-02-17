@@ -23,6 +23,7 @@ jobs:
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'ci@github.com'
+          git fetch --all
           npm run changelog
           git add CHANGELOG.md 
           git commit -m "[CI] Update CHANGELOG.md" 
