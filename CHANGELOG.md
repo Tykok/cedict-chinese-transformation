@@ -2,9 +2,9 @@
 
 Release at : 2023-02-17
 
-### Cleaning and refactor
+### Configuration
 
-* Refractor useless file and change somes configuration ([`55a6220`](https://github.com/Tykok/cedict-chinese-transformation/commit/55a62208ffd4c173bb64bac78331eeb71b5b4917))
+* Update CHANGELOG.md ([`3756dd7`](https://github.com/Tykok/cedict-chinese-transformation/commit/3756dd71411671f528bde6e6704755e2870c4e76))
 
 # [1.4.15](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.14...1.4.15)
 
