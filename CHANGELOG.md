@@ -2,6 +2,6 @@
 
 Release at : 2023-02-17
 
-### Features
+### Fixes
 
-*  : Added auto-changelog dependency to update CHANGELOG.md file and added a workflow ([`040abac`](https://github.com/Tykok/cedict-chinese-transformation/commit/040abac830ef8c2afc84fa810921407e21045f21))
+*  Config file for auto-changelog ([`2892a91`](https://github.com/Tykok/cedict-chinese-transformation/commit/2892a91fd2534bbc6bb5f23b497fbe3f29ce1522))
