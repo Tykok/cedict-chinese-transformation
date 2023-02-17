@@ -4,15 +4,9 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 List any dependencies that are required for this change and any dependencies you have added.
 
-## Issues
-
-Please, include here all the issues that are fixed by this change.
-
-- Name of issue - #number_of_issue
-
 ## Type of change
 
-Please delete options that are not relevant.
+Please check options that are relevant.
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
@@ -23,14 +17,9 @@ Please delete options that are not relevant.
 
 Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
-- [ ] Test A
-- [ ] Test B
-
 # Checklist for Contributors :
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas (JSDoc, comments, etc.)
-- [ ] I have made corresponding changes to the documentation (Postman, How to install, etc.)
-- [ ] I have added tests that prove my fix is effective or that my feature works 
+- [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] New and existing unit tests pass locally with my changes
