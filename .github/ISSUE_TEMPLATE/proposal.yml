@@ -1,0 +1,50 @@
+name: Make a proposal 💭
+description: Tell us if you have any proposal for this project 
+title: "Proposal: "
+labels: ["proposal"]
+assignees: octocat
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make a proposal evolution for this project ! 
+        You can use markdown in many textarea to make it more readable.
+
+        Thanks! And have a nice day 🎇
+
+  - type: textarea
+    id: why-this-project
+    attributes:
+      label: Why you use this project ?
+      placeholder: |
+        Tell us why you use this project, and what you want to do with it.
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposal-explain
+    attributes:
+      label: Explain us your proposal
+      placeholder: Add what you want in this textarea
+      render: Markdown
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details 📫
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct 😇
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Tykok/cedict-chinese-transformation/blob/develop/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
