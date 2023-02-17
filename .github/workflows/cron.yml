@@ -23,6 +23,6 @@ jobs:
           git config --global user.name 'CI'
           git config --global user.email 'ci.cron@github.com'
           git add .
-          git commit -m "Update cedict.json"
+          git commit -m "[CI] Update cedict.json"
           npm version minor
           git push
