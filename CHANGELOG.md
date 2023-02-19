@@ -2,9 +2,9 @@
 
 Release at : 2023-02-19
 
-### Features
+### Cleaning and refactor
 
-* Make a Cedict ([`86df794`](https://github.com/Tykok/cedict-chinese-transformation/commit/86df79420a4106e7cc538dcfa426d011398f5605))
+* Remove static/docs folder and add it into .gitignore ([`bf6e8a7`](https://github.com/Tykok/cedict-chinese-transformation/commit/bf6e8a7b7139f15a6768d56902fa887974c5795b))
 
 # [1.5.0](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.15...1.5.0)
 
