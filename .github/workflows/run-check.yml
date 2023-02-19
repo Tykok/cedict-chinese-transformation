@@ -4,12 +4,9 @@ on:
   pull_request:
     branches:
       - 'develop'
+      - 'main'
     paths:
       - 'src/**.ts'
-  push:
-    branches:
-      - 'main'
-      - 'develop'
   workflow_dispatch:
 
 jobs:
