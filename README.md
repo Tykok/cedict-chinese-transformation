@@ -54,8 +54,8 @@ With this library, you can use the many methods to search :
 
 - [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
-- [Running from command line](#running-from-command-line)
-- [Documentation](#documentation)
+  - [`Cedict`](#cedict)
+  - [CLI](#cli)
 - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
   - [Contributing Guide](#contributing-guide)
@@ -68,13 +68,25 @@ First to use the library, you should use this command into your project :
 npm i @tykok/cedict-dictionary
 ```
 
-## Running from command line
+### `Cedict`
 
-A command line will be come soon, stay up to date !
+How to use the `Cedict` class in your project ? Simple, you just need to import it where you want with :
 
-## Documentation
+```ts
+import Cedict from '@tykok/cedict-dictionary'
+```
 
-The documentation will be come soon, stay up to date !
+Next, you can use some static functions like :
+
+```ts
+Cedict.getByPinyin('ni3')
+```
+
+To know all about this class, go on the [documentation][documentation].
+
+### CLI
+
+The CLI will come soon ! 
 
 ## Contributing
 
@@ -93,5 +105,6 @@ Read our [contributing guide][contributingLink] to learn about our development p
 
 [projectLink]: https://github.com/Tykok/cedict-chinese-transformation
 [licenseLink]: ./LICENSE.md
+[documentation]: https://tykok.github.io/cedict-chinese-transformation/
 [contributingLink]: ./CONTRIBUTING.md
 [codeOfCondutLink]: ./CODE_OF_CONDUCT.md
