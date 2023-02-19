@@ -1,4 +1,6 @@
-import ChineseWord from './types/ChineseWord';
-import { getByEnglish, getByPinyin, getBySimplified, getByTraditional } from './utils/dictionary-function';
+import ChineseWord from './types/ChineseWord'
+import Cedict from './classes/Cedict'
 
-export { getByTraditional, getByEnglish, getByPinyin, getBySimplified, ChineseWord };
+export { ChineseWord }
+
+export default Cedict
