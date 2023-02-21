@@ -29,7 +29,7 @@
 
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/on-push-main.yml?label=Publish%20release&style=plastic)
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/cron.yml?label=Get%20new%20cedict&style=plastic)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/on-develop-pr.yml?label=Test%20and%20build&style=plastic)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/run-check.yml?label=Check&style=plastic)
 
 </div>
 
@@ -55,7 +55,7 @@ With this library, you can use the many methods to search :
 - [Table of Contents](#table-of-contents)
 - [Getting Started](#getting-started)
   - [`Cedict`](#cedict)
-  - [CLI](#cli)
+  - [Next features](#next-features)
 - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
   - [Contributing Guide](#contributing-guide)
@@ -84,9 +84,12 @@ Cedict.getByPinyin('ni3')
 
 To know all about this class, go on the [documentation][documentation].
 
-### CLI
+### Next features
 
-The CLI will come soon ! 
+Maybe, I'll:
+
+- Implement a CLI command for Cedict.
+- Implement a Cedict database generation.
 
 ## Contributing
 
