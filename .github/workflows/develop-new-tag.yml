@@ -2,8 +2,6 @@ name: Update Changelog
 
 on:
   push:
-    tags:
-      - 'v*'
     branches:
       - "develop"
   workflow_dispatch:
