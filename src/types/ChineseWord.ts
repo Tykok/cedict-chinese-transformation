@@ -5,22 +5,22 @@ type ChineseWord = {
   /**
    * Chinese traditional character
    */
-  traditional: string
+  traditional: string;
 
   /**
    * Chinese simplified character
    */
-  simplified: string
+  simplified: string;
 
   /**
    * Pinyin is the official transcription of Mandarin Chinese
    */
-  pinyin: string
+  pinyin: string;
 
   /**
    * English translation of the chinese word
    */
-  english: string
-}
+  english: string;
+};
 
-export default ChineseWord
+export default ChineseWord;
