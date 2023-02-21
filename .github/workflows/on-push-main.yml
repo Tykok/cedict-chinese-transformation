@@ -38,10 +38,6 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-      - name : "Install dependencies"
-        run: npm i
-      - name: Build project (TypeScript --> JavaScript)
-        run: npm run build
       - name: Publish package on npmjs.com
         run: npm publish --access public
         env:
