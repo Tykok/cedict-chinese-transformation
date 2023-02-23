@@ -56,7 +56,7 @@ jobs:
       - name : Build the docs with mkdocs 🐍
         run: |
           pip install mkdocs
-          npm build:docs
+          npm run build:docs
       - name: Deploy documentation 📃
         uses: JamesIves/github-pages-deploy-action@v4
         with:

@@ -16,6 +16,12 @@ Release at : 2023-02-24
 
 Release at : 2023-02-24
 
+* use npm instead of yarn ([`8720385`](https://github.com/Tykok/cedict-chinese-transformation/commit/87203859c9c2fb623976ffe82de24d6a74936db3))
+
+# [2.0.1](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.1)
+
+Release at : 2023-02-24
+
 # [2.0.0](https://github.com/Tykok/cedict-chinese-transformation/compare/1.5.0...2.0.0)
 
 Release at : 2023-02-24
