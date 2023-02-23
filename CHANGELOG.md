@@ -1,10 +1,10 @@
 # [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/1.5.0...HEAD)
 
-Release at : 2023-02-19
+Release at : 2023-02-23
 
-### Configuration
+### Fixes
 
-* Update mkdocs and check workflow ([`43f1f4e`](https://github.com/Tykok/cedict-chinese-transformation/commit/43f1f4efd2bbe127be2f75ee87648e570077bc53))
+* Add permissions to auto-approve workflow ([`0757e62`](https://github.com/Tykok/cedict-chinese-transformation/commit/0757e622def5e75c64d19fe84447a3b3453ee260))
 
 # [1.5.0](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.15...1.5.0)
 

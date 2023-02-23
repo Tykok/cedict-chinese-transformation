@@ -14,16 +14,22 @@ npm install @tykok/cedict-dictionary
 yarn add @tykok/cedict-dictionary
 ```
 
-## Methods
+## `Cedict`
 
-To use methods, you simply need to import the method you want from `@tykok/cedict-dictionary`.
+To use the `Cedict` class, you simply need to import it from `@tykok/cedict-dictionary`.
 
-For example you have `getByTraditional()`, who is a method who take one string parameter. With that method you can retrieve a traditional character.
+
+```ts
+import Cedict from '@tykok/cedict-dictionary'
+```
+
+Next, you can use some function like `getByTraditional()` for example.
+With that method you can retrieve a traditional character.
 
 For example with :
 
 ```typescript
-console.log(getByTraditional('上天入地'))
+console.log(Cedict.getByTraditional('上天入地'))
 ```
 
 You will get :
@@ -43,11 +49,13 @@ You have others methods like :
 - `getByPinyin()`
 - `getBySimplified()`
 
+> All this methods are static, and you can use it directly with the `Cedict` class.
+
 ### `ChineseWord`
 
-`ChineseWord` is a class who returned by all previous methods.
+`ChineseWord` is the type returned by all methods in [`Cedict`](#cedict) class.
 
-> ⚠️ Be care, all previous can return `undefined` value too.
+> ⚠️ Be care, all this methods can return `undefined` value too.
 
 This class have 4 string properties are :
 

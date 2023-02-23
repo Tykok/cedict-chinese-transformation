@@ -7,9 +7,20 @@
 
 <h2 align="center">Cedict Dictionary</h2>
 
-[![Publish package](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/release.yml)
-[![Linter](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml)
-[![Test](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml/badge.svg)](https://github.com/Tykok/cedict-chinese-transformation/actions/workflows/on-push.yml)
+<div align="center">
+
+<img src="https://img.shields.io/github/license/tykok/cedict-chinese-transformation?style=plastic" />
+<img src="https://img.shields.io/github/package-json/v/tykok/cedict-chinese-transformation/main?style=plastic" />
+<img src="https://img.shields.io/github/languages/top/tykok/cedict-chinese-transformation?style=plastic" />
+</div>
+---
+<div align="center">
+<h3 >GitHub Workflow</h3>
+<img src="https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/on-push-main.yml?label=Publish%20release&style=plastic" />
+<img src="https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/cron.yml?label=Get%20new%20cedict&style=plastic" />
+<img src="https://img.shields.io/github/actions/workflow/status/tykok/cedict-chinese-transformation/run-check.yml?label=Check&style=plastic" />
+</div>
+<br/>
 
 The [Cedict Dictionary][projectLink] was created to use the Chinese dictionary easily. 
 
@@ -17,6 +28,7 @@ The [Cedict Dictionary][projectLink] was created to use the Chinese dictionary e
 
 ## Table of Contents
 
+- [](#)
 - [Table of Contents](#table-of-contents)
 - [Contributing](#contributing)
   - [Code of Conduct](#code-of-conduct)
