@@ -1,8 +1,6 @@
 name: Release and publish
 on:
   push:
-    tags:
-      - 'v*'
     branches:
       - "main"
 permissions:
