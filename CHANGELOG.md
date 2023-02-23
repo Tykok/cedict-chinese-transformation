@@ -2,10 +2,6 @@
 
 Release at : 2023-02-23
 
-### Cleaning and refactor
-
-* Remove 'Update CHANGELOG.md' commit in CHANGELOG.md ([`2d35bb5`](https://github.com/Tykok/cedict-chinese-transformation/commit/2d35bb595e6c639fb5bd1903aa47321c7f313bab))
-
 # [1.5.0](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.15...1.5.0)
 
 Release at : 2023-02-18
