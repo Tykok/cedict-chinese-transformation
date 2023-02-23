@@ -24,5 +24,5 @@ jobs:
           git fetch --all
           npm run changelog
           git add CHANGELOG.md 
-          git commit -m "[CI] Update CHANGELOG.md" 
+          git commit -m "[CI] Update changelog"
           git push
