@@ -2,9 +2,9 @@
 
 Release at : 2023-02-23
 
-### Fixes
+### Configuration
 
-* Add permissions to auto-approve workflow ([`0757e62`](https://github.com/Tykok/cedict-chinese-transformation/commit/0757e622def5e75c64d19fe84447a3b3453ee260))
+* Bump @types/node from 18.13.0 to 18.14.0 ([`79f15b9`](https://github.com/Tykok/cedict-chinese-transformation/commit/79f15b979a4aa17e00fa9018af241f38d6a18574))
 
 # [1.5.0](https://github.com/Tykok/cedict-chinese-transformation/compare/1.4.15...1.5.0)
 
