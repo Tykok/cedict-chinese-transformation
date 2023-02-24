@@ -1,17 +1,10 @@
-# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.31...HEAD)
-
-Release at : 2023-02-24
-
-# [2.0.31](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.31)
+# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...HEAD)
 
 Release at : 2023-02-24
 
 ### Configuration
 
-* Try to fix the CI publish release / npm ([`bcad799`](https://github.com/Tykok/cedict-chinese-transformation/commit/bcad79950b7dccefd217f612a5c4cb04864f376c))
-* use npm instead of yarn ([`14982af`](https://github.com/Tykok/cedict-chinese-transformation/commit/14982aff78becdc87402467401a09f78dc5fb6c8))
-* Try to fix the publish workflow ([`1c6401b`](https://github.com/Tykok/cedict-chinese-transformation/commit/1c6401b47872a98330159705a9d162f80191adc1))
-* Remove Update CHANGELOG on push tags ([`2a7a230`](https://github.com/Tykok/cedict-chinese-transformation/commit/2a7a230f9588fcdf3912a785c87ec10f218d2708))
+* Update changelog ([`ec59448`](https://github.com/Tykok/cedict-chinese-transformation/commit/ec594486872f1b4d0150b022e2dc2db0c469b638))
 
 # [2.0.0](https://github.com/Tykok/cedict-chinese-transformation/compare/1.5.0...2.0.0)
 
