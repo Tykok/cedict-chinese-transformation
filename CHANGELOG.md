@@ -1,4 +1,12 @@
-# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.33...HEAD)
+# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.35...HEAD)
+
+Release at : 2023-02-24
+
+### Documentation
+
+* Update image of the project ([`88af2ff`](https://github.com/Tykok/cedict-chinese-transformation/commit/88af2ffd01eb870a43e2a74ab8ab465ab10ed3d2))
+
+# [2.0.35](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.35)
 
 Release at : 2023-02-24
 
@@ -6,43 +14,26 @@ Release at : 2023-02-24
 
 * Fix conflicts with main branch ([`7c1b35f`](https://github.com/Tykok/cedict-chinese-transformation/commit/7c1b35f810d897a10e6e5655391c3f927053e120))
 * Fix workflows ([`e9c66f7`](https://github.com/Tykok/cedict-chinese-transformation/commit/e9c66f7d6c90701af7e2504458a73af25481c4c1))
-* Try to fix the mkdocs workflow ([`09a69ba`](https://github.com/Tykok/cedict-chinese-transformation/commit/09a69bab3ec5dad2f0ec0b070509976e991e6a62))
-* Try to fix the mkdocs workflow ([`d9ffa19`](https://github.com/Tykok/cedict-chinese-transformation/commit/d9ffa192051c890adfa33049e65fa3f80b70ac45))
-* Try to fix the mkdocs workflow ([`27107e8`](https://github.com/Tykok/cedict-chinese-transformation/commit/27107e81f7a38d828f6865edceacd8b4a88f74c8))
-* Try to fix the mkdocs workflow ([`a289241`](https://github.com/Tykok/cedict-chinese-transformation/commit/a2892410ae789c77b73e3ce130dd3e446f9f9ee2))
-
-# [2.0.33](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.32...2.0.33)
-
-Release at : 2023-02-24
-
-### Fixes
-
 * Fix conflicts ([`5e8c260`](https://github.com/Tykok/cedict-chinese-transformation/commit/5e8c260d0b4d85f581570f217a17ecb81bb5e008))
 
 ### Configuration
 
+* Update changelog ([`babe2d5`](https://github.com/Tykok/cedict-chinese-transformation/commit/babe2d53adf6ff60a709a3907ba0cb50b1d51b06))
+* Update changelog ([`77d93e5`](https://github.com/Tykok/cedict-chinese-transformation/commit/77d93e5973c43bcd0a9f996096f92b4b068c8da9))
+* Update changelog ([`34cb225`](https://github.com/Tykok/cedict-chinese-transformation/commit/34cb225b0a1863b40ffd913c51a2d41c6a3c153e))
 * Update changelog ([`3cd4f2b`](https://github.com/Tykok/cedict-chinese-transformation/commit/3cd4f2bcb2968c30e8c9c0870fce303e8bb35a12))
 * Try to fix the job who publish documentation ([`2339130`](https://github.com/Tykok/cedict-chinese-transformation/commit/2339130575a6467ec2f71422bb0fe23da0bfb9f4))
-* Update changelog ([`e1ace18`](https://github.com/Tykok/cedict-chinese-transformation/commit/e1ace186879fe253f4dad8ecb53effa47cbaafc2))
-
-# [2.0.32](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.32)
-
-Release at : 2023-02-24
-
-### Configuration
-
-* Update changelog ([`77d93e5`](https://github.com/Tykok/cedict-chinese-transformation/commit/77d93e5973c43bcd0a9f996096f92b4b068c8da9))
-* Try to fix the failed workflows ([`1b0c5d0`](https://github.com/Tykok/cedict-chinese-transformation/commit/1b0c5d0f0f215cff3c9b5ed881686b70d3df6859))
-* Try to fix workfow ([`21ae841`](https://github.com/Tykok/cedict-chinese-transformation/commit/21ae841467cb1db56f7355a21c53260b4a40e665))
-* Fixing the CHANGELOG workflow ([`775338b`](https://github.com/Tykok/cedict-chinese-transformation/commit/775338b20db756186daa7d3946eeb03e16c149d1))
-* Update changelog ([`19b43be`](https://github.com/Tykok/cedict-chinese-transformation/commit/19b43be98ecc5374ca87270de1899756d03a8c74))
-* Update changelog ([`34cb225`](https://github.com/Tykok/cedict-chinese-transformation/commit/34cb225b0a1863b40ffd913c51a2d41c6a3c153e))
 * Update changelog ([`ec59448`](https://github.com/Tykok/cedict-chinese-transformation/commit/ec594486872f1b4d0150b022e2dc2db0c469b638))
-* Bump @types/node from 18.14.0 to 18.14.1 ([`ff05ace`](https://github.com/Tykok/cedict-chinese-transformation/commit/ff05acee94c97c4ae1d04161c2b6b7ad97a7814c))
 * Bump @types/node from 18.14.0 to 18.14.1 ([`c9159d6`](https://github.com/Tykok/cedict-chinese-transformation/commit/c9159d6e2d3092c73abad910523915a5f8ec78bf))
+* Update changelog ([`e1ace18`](https://github.com/Tykok/cedict-chinese-transformation/commit/e1ace186879fe253f4dad8ecb53effa47cbaafc2))
+* Try to fix the failed workflows ([`1b0c5d0`](https://github.com/Tykok/cedict-chinese-transformation/commit/1b0c5d0f0f215cff3c9b5ed881686b70d3df6859))
+* Bump @types/node from 18.14.0 to 18.14.1 ([`ff05ace`](https://github.com/Tykok/cedict-chinese-transformation/commit/ff05acee94c97c4ae1d04161c2b6b7ad97a7814c))
 * Update changelog ([`586138f`](https://github.com/Tykok/cedict-chinese-transformation/commit/586138f24c21f1ae2e20b486926b9fc92955c138))
 * Update changelog ([`d1b1c69`](https://github.com/Tykok/cedict-chinese-transformation/commit/d1b1c69f6cc78fcf17cea7696b9e7d5c8b8c09b0))
 * Update changelog ([`3fdf809`](https://github.com/Tykok/cedict-chinese-transformation/commit/3fdf80937a900d80f2539463eb4419d75fa6276a))
+* Try to fix workfow ([`21ae841`](https://github.com/Tykok/cedict-chinese-transformation/commit/21ae841467cb1db56f7355a21c53260b4a40e665))
+* Fixing the CHANGELOG workflow ([`775338b`](https://github.com/Tykok/cedict-chinese-transformation/commit/775338b20db756186daa7d3946eeb03e16c149d1))
+* Update changelog ([`19b43be`](https://github.com/Tykok/cedict-chinese-transformation/commit/19b43be98ecc5374ca87270de1899756d03a8c74))
 * Try to fix the publish workflow ([`1c6401b`](https://github.com/Tykok/cedict-chinese-transformation/commit/1c6401b47872a98330159705a9d162f80191adc1))
 * Update changelog ([`a9a8acc`](https://github.com/Tykok/cedict-chinese-transformation/commit/a9a8acc494871d1f2a26822ad578523dc832158b))
 * Remove Update CHANGELOG on push tags ([`2a7a230`](https://github.com/Tykok/cedict-chinese-transformation/commit/2a7a230f9588fcdf3912a785c87ec10f218d2708))
