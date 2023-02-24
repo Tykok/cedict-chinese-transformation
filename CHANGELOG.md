@@ -2,9 +2,13 @@
 
 Release at : 2023-02-24
 
-### Documentation
+### Fixes
 
-* Update image of the project ([`88af2ff`](https://github.com/Tykok/cedict-chinese-transformation/commit/88af2ffd01eb870a43e2a74ab8ab465ab10ed3d2))
+* Fix conflicts for main branch ([`b28fb74`](https://github.com/Tykok/cedict-chinese-transformation/commit/b28fb744f32dd5cfda47f129734a51fda2a07271))
+
+### Configuration
+
+* Update changelog ([`7f65f7a`](https://github.com/Tykok/cedict-chinese-transformation/commit/7f65f7a2dc74d7bb4aa172b730e26eed3f4d2cb5))
 
 # [2.0.35](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.35)
 
