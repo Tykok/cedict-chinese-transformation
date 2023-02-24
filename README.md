@@ -1,4 +1,4 @@
-<p align="center"><img src="./static/cedict.png" width="35%" heigth="20%"/></p>
+<p align="center"><img src="./static/cedict.png" width="75%" heigth="20%"/></p>
 
 <!-- A spacer -->
 <p>&nbsp;</p>
