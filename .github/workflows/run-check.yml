@@ -48,4 +48,3 @@ jobs:
         run: npm i
       - name: Run linter
         run: npm run build
-
