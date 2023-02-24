@@ -30,7 +30,7 @@ jobs:
           git push
   deploy-docs:
     runs-on: ubuntu-latest
-    needs: [publish-release, release]
+    # needs: [publish-release, release]
     steps:
       - uses: actions/setup-python@v4
         with:
