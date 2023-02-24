@@ -1,9 +1,18 @@
-# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...HEAD)
+# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.32...HEAD)
+
+Release at : 2023-02-24
+
+### Fixes
+
+* Upgrade version to publish it ([`760746b`](https://github.com/Tykok/cedict-chinese-transformation/commit/760746bba7e6217222a3b329d48f89fe6deaef01))
+
+# [2.0.32](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.32)
 
 Release at : 2023-02-24
 
 ### Configuration
 
+* Update changelog ([`77d93e5`](https://github.com/Tykok/cedict-chinese-transformation/commit/77d93e5973c43bcd0a9f996096f92b4b068c8da9))
 * Try to fix the failed workflows ([`1b0c5d0`](https://github.com/Tykok/cedict-chinese-transformation/commit/1b0c5d0f0f215cff3c9b5ed881686b70d3df6859))
 * Try to fix workfow ([`21ae841`](https://github.com/Tykok/cedict-chinese-transformation/commit/21ae841467cb1db56f7355a21c53260b4a40e665))
 * Fixing the CHANGELOG workflow ([`775338b`](https://github.com/Tykok/cedict-chinese-transformation/commit/775338b20db756186daa7d3946eeb03e16c149d1))
