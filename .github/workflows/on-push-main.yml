@@ -52,6 +52,7 @@ jobs:
       - name : Build the docs with mkdocs 🐍
         run: |
           pip install mkdocs
+          cd
           mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/
       - name: Deploy documentation 📃
         uses: JamesIves/github-pages-deploy-action@v4
