@@ -37,7 +37,9 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - name: Publish package on npmjs.com
-        run: npm publish --access public
+        run: |
+          npm i
+          npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
   deploy-docs:
@@ -50,6 +52,7 @@ jobs:
       - name : Build the docs with mkdocs 🐍
         run: |
           pip install mkdocs
+          cd
           mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/
       - name: Deploy documentation 📃
         uses: JamesIves/github-pages-deploy-action@v4
