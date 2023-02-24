@@ -4,18 +4,25 @@ Release at : 2023-02-24
 
 ### Fixes
 
-* Fix conflicts ([`5e8c260`](https://github.com/Tykok/cedict-chinese-transformation/commit/5e8c260d0b4d85f581570f217a17ecb81bb5e008))
-
-### Configuration
-
-* Try to fix the job who publish documentation ([`2339130`](https://github.com/Tykok/cedict-chinese-transformation/commit/2339130575a6467ec2f71422bb0fe23da0bfb9f4))
+* Fix conflicts with main branch ([`7c1b35f`](https://github.com/Tykok/cedict-chinese-transformation/commit/7c1b35f810d897a10e6e5655391c3f927053e120))
+* Fix workflows ([`e9c66f7`](https://github.com/Tykok/cedict-chinese-transformation/commit/e9c66f7d6c90701af7e2504458a73af25481c4c1))
+* Try to fix the mkdocs workflow ([`09a69ba`](https://github.com/Tykok/cedict-chinese-transformation/commit/09a69bab3ec5dad2f0ec0b070509976e991e6a62))
+* Try to fix the mkdocs workflow ([`d9ffa19`](https://github.com/Tykok/cedict-chinese-transformation/commit/d9ffa192051c890adfa33049e65fa3f80b70ac45))
+* Try to fix the mkdocs workflow ([`27107e8`](https://github.com/Tykok/cedict-chinese-transformation/commit/27107e81f7a38d828f6865edceacd8b4a88f74c8))
+* Try to fix the mkdocs workflow ([`a289241`](https://github.com/Tykok/cedict-chinese-transformation/commit/a2892410ae789c77b73e3ce130dd3e446f9f9ee2))
 
 # [2.0.33](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.32...2.0.33)
 
 Release at : 2023-02-24
 
+### Fixes
+
+* Fix conflicts ([`5e8c260`](https://github.com/Tykok/cedict-chinese-transformation/commit/5e8c260d0b4d85f581570f217a17ecb81bb5e008))
+
 ### Configuration
 
+* Update changelog ([`3cd4f2b`](https://github.com/Tykok/cedict-chinese-transformation/commit/3cd4f2bcb2968c30e8c9c0870fce303e8bb35a12))
+* Try to fix the job who publish documentation ([`2339130`](https://github.com/Tykok/cedict-chinese-transformation/commit/2339130575a6467ec2f71422bb0fe23da0bfb9f4))
 * Update changelog ([`e1ace18`](https://github.com/Tykok/cedict-chinese-transformation/commit/e1ace186879fe253f4dad8ecb53effa47cbaafc2))
 
 # [2.0.32](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.32)
