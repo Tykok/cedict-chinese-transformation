@@ -3,7 +3,7 @@ name: Update Changelog
 on:
   push:
     branches:
-      - "develop"
+      - "main"
   workflow_dispatch:
 
 jobs:
@@ -26,3 +26,6 @@ jobs:
           git add CHANGELOG.md 
           git commit -m "[CI] Update changelog"
           git push
+          git checkout develop
+          git rebase origin main
+          git push origin develop -f
