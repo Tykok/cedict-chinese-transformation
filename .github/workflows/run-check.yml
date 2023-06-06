@@ -1,4 +1,4 @@
-name: Run check
+name: Run check 🚥
 
 on:
   pull_request:

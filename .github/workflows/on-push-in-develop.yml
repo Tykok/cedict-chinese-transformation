@@ -1,9 +1,10 @@
-name: Update Changelog
+name: On push in develop 
 
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - develop
+
   workflow_dispatch:
 
 jobs:
@@ -17,7 +18,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name : "Install dependencies"
         run: npm i
-      - name: Update Changelog
+      - name: Update Changelog 🏷️
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'ci@github.com'
