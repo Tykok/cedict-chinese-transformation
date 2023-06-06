@@ -1,4 +1,38 @@
-# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.35...HEAD)
+# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.0...HEAD)
+
+Release at : 2023-06-06
+
+### Configuration
+
+* Improve Workflow GitHub ([`15b5438`](https://github.com/Tykok/cedict-chinese-transformation/commit/15b5438ad8f6895c0933298b6fc419c3017d802e))
+
+# [2.2.0](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.36...2.2.0)
+
+Release at : 2023-06-06
+
+### Fixes
+
+* Security vulnerability on fstream ([`deaa22f`](https://github.com/Tykok/cedict-chinese-transformation/commit/deaa22f599b3f79d072a0185a0c626096be0b546))
+
+### Configuration
+
+* Bump jest from 29.4.3 to 29.5.0 ([`fd472c5`](https://github.com/Tykok/cedict-chinese-transformation/commit/fd472c551a09dadf002f0c19be61882a836e73f5))
+* Bump @types/node from 18.16.14 to 18.16.16 ([`0447327`](https://github.com/Tykok/cedict-chinese-transformation/commit/04473277a15c13e890d43de624e7f54e6ae5bd8e))
+* Bump @types/node from 18.16.13 to 18.16.14 ([`99189ed`](https://github.com/Tykok/cedict-chinese-transformation/commit/99189ed27ee18371189f52968fedf16990f1db01))
+* Bump @types/node from 18.16.8 to 18.16.13 ([`633b917`](https://github.com/Tykok/cedict-chinese-transformation/commit/633b917baf83a7a732112fc5b81b0f529502cacc))
+* Bump @types/node from 18.16.7 to 18.16.8 ([`e50ece4`](https://github.com/Tykok/cedict-chinese-transformation/commit/e50ece45a9a24f1060a0631f18844389a014574d))
+* Bump tsc-watch from 6.0.0 to 6.0.4 ([`ccedff6`](https://github.com/Tykok/cedict-chinese-transformation/commit/ccedff62d7f23c60491f6f2e8e1c863c20eea03f))
+* Bump @types/node from 18.15.11 to 18.16.7 ([`d302269`](https://github.com/Tykok/cedict-chinese-transformation/commit/d302269d32935fc765c9bfb5055ee3992b1456a9))
+* Bump @types/node from 18.14.6 to 18.15.11 ([`26eec18`](https://github.com/Tykok/cedict-chinese-transformation/commit/26eec18148e53a8824abcd632fdef0c0a5b7d2ad))
+* Update cedict.json ([`12c68d5`](https://github.com/Tykok/cedict-chinese-transformation/commit/12c68d505e470fccbb3f5bc970637640502e1fb6))
+* Run check on change for package.json ([`37b087f`](https://github.com/Tykok/cedict-chinese-transformation/commit/37b087f3d6b2265961e9eb0248e3b377c524571a))
+* Update cedict.json ([`913eb3c`](https://github.com/Tykok/cedict-chinese-transformation/commit/913eb3c346d6601590252c056ec669550a1d5fa1))
+
+### Others commits
+
+* Bump fstream from 0.1.31 to 1.0.12 ([`2eacf3b`](https://github.com/Tykok/cedict-chinese-transformation/commit/2eacf3b19f25efda3be3ecabda457d1c7487974e))
+
+# [2.0.36](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.35...2.0.36)
 
 Release at : 2023-02-24
 
@@ -8,6 +42,7 @@ Release at : 2023-02-24
 
 ### Configuration
 
+* Update changelog ([`5d27f64`](https://github.com/Tykok/cedict-chinese-transformation/commit/5d27f642075b7d63d01578523a4ab419b81f7666))
 * Update changelog ([`7f65f7a`](https://github.com/Tykok/cedict-chinese-transformation/commit/7f65f7a2dc74d7bb4aa172b730e26eed3f4d2cb5))
 
 # [2.0.35](https://github.com/Tykok/cedict-chinese-transformation/compare/2.0.0...2.0.35)
