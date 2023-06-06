@@ -22,10 +22,25 @@ jobs:
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'ci@github.com'
-          git fetch --all
+          git fetch origin
           git branch
           git checkout develop
           npm run changelog
           git add CHANGELOG.md 
-          git commit -m "[CI] Update changelog"
+          git commit -m "[CI] Update CHANGELOG.md [skip ci]"
           git push
+  bump-version:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses:  'phips28/gh-action-bump-version@master'
+        env:
+          PACKAGEJSON_DIR: '../'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          major-wording:  'MAJOR'
+          minor-wording:  '[Feat]'
+          patch-wording:  '[Fix]'    
+          tag-prefix:  'v'
+          commit-message: '[CI] Bumps version to {{version}} [skip ci]'
