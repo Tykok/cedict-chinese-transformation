@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-changelog:
+  update-changelog-and-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -18,29 +18,24 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name : "Install dependencies"
         run: npm i
+      - uses: 'phips28/gh-action-bump-version@master'
+        with:
+          major-wording:  'MAJOR'
+          minor-wording:  '[Feat],[Conf],[Doc]'
+          patch-wording:  '[Fix],[CI]'    
+          commit-message: '[CI] Bumps version to {{version}} [skip ci]'
+          skip-tag:  'true'
+          skip-commit:  'true'
+          skip-push:  'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update Changelog 🏷️
         run: |
           git config --global user.name 'CI'
           git config --global user.email 'ci@github.com'
           git fetch origin
-          git branch
           git checkout develop
           npm run changelog
           git add CHANGELOG.md 
-          git commit -m "[CI] Update CHANGELOG.md [skip ci]"
+          git commit -m "[CI] Update CHANGELOG.md and upgrade version [skip ci]"
           git push
-  bump-version:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses:  'phips28/gh-action-bump-version@master'
-        env:
-          PACKAGEJSON_DIR: '../'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          major-wording:  'MAJOR'
-          minor-wording:  '[Feat]'
-          patch-wording:  '[Fix]'    
-          tag-prefix:  'v'
-          commit-message: '[CI] Bumps version to {{version}} [skip ci]'
