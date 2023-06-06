@@ -22,7 +22,7 @@ jobs:
         with:
           major-wording:  'MAJOR'
           minor-wording:  '[Feat],[Conf],[Doc]'
-          patch-wording:  '[Fix],[CI]'    
+          patch-wording:  '[Fix],[CI],[Clean]'    
           commit-message: '[CI] Bumps version to {{version}} [skip ci]'
           skip-tag:  'true'
           skip-commit:  'true'
