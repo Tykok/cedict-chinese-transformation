@@ -2,9 +2,9 @@
 
 Release at : 2023-06-07
 
-### Configuration
+### Cleaning and refactor
 
-* Update changelog ([`702607e`](https://github.com/Tykok/cedict-chinese-transformation/commit/702607ed44a9dc913c8579ee496b5da891306f23))
+* Remove package-lock.json ([`c206899`](https://github.com/Tykok/cedict-chinese-transformation/commit/c206899263541f72f224935763c738207f2060c6))
 
 # [2.2.1](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.0...2.2.1)
 
