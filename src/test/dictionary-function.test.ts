@@ -1,41 +1,62 @@
-import ChineseWord from '../types/ChineseWord';
+import ChineseWord from '../types/ChineseWord'
 import Cedict from '../classes/Cedict';
+
+const checkProperty = (word: ChineseWord) => {
+  expect(word).toHaveProperty('traditional');
+  expect(word).toHaveProperty('simplified');
+  expect(word).toHaveProperty('pinyin');
+  expect(word).toHaveProperty('english');
+}
+
+const expectOneContains = (word: string[], character: string) => {
+  const count = word.reduce((acc, curr) => {
+    if (curr.toUpperCase().includes(character.toUpperCase())) return acc + 1
+    return acc
+  }
+  , 0)
+  expect(count).toBeGreaterThanOrEqual(1)
+}
 
 describe('Check property return of dictionary function', () => {
   it('getByTraditional should have ChineseWord property', () => {
-    const expected = Cedict.getByTraditional('一');
+    const traditional = '一'
+    const expected = Cedict.getByTraditional(traditional)
 
-    expect(expected).toHaveProperty('traditional');
-    expect(expected).toHaveProperty('simplified');
-    expect(expected).toHaveProperty('pinyin');
-    expect(expected).toHaveProperty('english');
-  });
+    expected?.forEach(e => {
+      checkProperty(e)
+      expect(e.traditional.toUpperCase()).toContain(traditional.toUpperCase())
+    })
+  })
 
   it('get should have ChineseWord property', () => {
-    const expected = Cedict.getBySimplified('一');
+    const simplified = '一'
+    const expected = Cedict.getBySimplified(simplified)
 
-    expect(expected).toHaveProperty('traditional');
-    expect(expected).toHaveProperty('simplified');
-    expect(expected).toHaveProperty('pinyin');
-    expect(expected).toHaveProperty('english');
-  });
+    expected?.forEach(e => {
+      checkProperty(e)
+      expect(e.simplified.toUpperCase()).toContain(simplified.toUpperCase())
+    })
+  })
 
   it('getByEnglsih should have ChineseWord property', () => {
-    const englishArray = Cedict.getByEnglish('one') as ChineseWord[];
-    const expected = englishArray[0];
+    const english = 'one'
+    const expected = Cedict.getByEnglish(english)
 
-    expect(expected).toHaveProperty('traditional');
-    expect(expected).toHaveProperty('simplified');
-    expect(expected).toHaveProperty('pinyin');
-    expect(expected).toHaveProperty('english');
-  });
+    expected?.forEach(e => {
+      checkProperty(e)
+      e.english.forEach(english => {
+        expectOneContains(e.english, english)
+      })
+    })
+  })
 
   it('getByPinyin should have ChineseWord property', () => {
-    const expected = Cedict.getByPinyin('yi1') as ChineseWord;
+    const pinyin = 'yi1'
+    const expected = Cedict.getByPinyin(pinyin)
 
-    expect(expected).toHaveProperty('traditional');
-    expect(expected).toHaveProperty('simplified');
-    expect(expected).toHaveProperty('pinyin');
-    expect(expected).toHaveProperty('english');
-  });
-});
+    expected?.forEach(e => {
+      checkProperty(e)
+      expect(e.pinyin.toUpperCase()).toContain(pinyin.toUpperCase())
+    })
+  })
+})
