@@ -19,7 +19,12 @@ class Cedict {
   }
 
   static getByEnglish(sentence: string): ChineseWord[] | undefined {
-    return Cedict.getCedict().filter((word) => word.english.includes(sentence));
+    return Cedict.getCedict().filter((word) => {
+      for (const english of word.english) {
+        if (english.includes(sentence)) return true;
+      }
+      return false;
+    });
   }
 
   static allOccurenceOfTraditional(traditional: string): ChineseWord[] | undefined {

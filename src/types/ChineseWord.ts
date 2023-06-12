@@ -20,7 +20,7 @@ type ChineseWord = {
   /**
    * English translation of the chinese word
    */
-  english: string;
+  english: string[];
 };
 
 export default ChineseWord;
