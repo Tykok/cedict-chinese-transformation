@@ -1,10 +1,10 @@
 # [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.1...HEAD)
 
-Release at : 2023-06-07
+Release at : 2023-06-17
 
-### Cleaning and refactor
+### Features
 
-* Remove package-lock.json ([`c206899`](https://github.com/Tykok/cedict-chinese-transformation/commit/c206899263541f72f224935763c738207f2060c6))
+* Change english parse / search functions ([`9192381`](https://github.com/Tykok/cedict-chinese-transformation/commit/919238138803f43d4d098d600346bc0cfc2afec4))
 
 # [2.2.1](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.0...2.2.1)
 
