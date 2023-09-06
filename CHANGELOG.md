@@ -1,10 +1,91 @@
-# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.1...HEAD)
+# [Unreleased](https://github.com/Tykok/cedict-chinese-transformation/compare/2.6.0...HEAD)
 
-Release at : 2023-06-18
+Release at : 2023-09-06
+
+### Features
+
+* Change english parse / search functions ([`9192381`](https://github.com/Tykok/cedict-chinese-transformation/commit/919238138803f43d4d098d600346bc0cfc2afec4))
 
 ### Fixes
 
 * Return all occurence of a given string ([`b5d4599`](https://github.com/Tykok/cedict-chinese-transformation/commit/b5d45996b63f8da00f47dd69665e55cf63cac7e3))
+
+### Configuration
+
+* Update workflows ([`2cdfd32`](https://github.com/Tykok/cedict-chinese-transformation/commit/2cdfd329f72fa857adb9365aaa9f4cf159fa512a))
+* Update changelog ([`702607e`](https://github.com/Tykok/cedict-chinese-transformation/commit/702607ed44a9dc913c8579ee496b5da891306f23))
+* Update the on-push-develop.yml and make a on-pr-... ([`7660980`](https://github.com/Tykok/cedict-chinese-transformation/commit/76609806246df3af71565ebb733018cfd00cbd48))
+* Update cedict.json ([`bb804ae`](https://github.com/Tykok/cedict-chinese-transformation/commit/bb804aec7a593d2dc616e86a44376ddf031758f0))
+* Update cedict.json ([`9c00460`](https://github.com/Tykok/cedict-chinese-transformation/commit/9c004606691c0cb8745db18d4f6732fd0212719a))
+* Update cedict.json ([`6512f63`](https://github.com/Tykok/cedict-chinese-transformation/commit/6512f63d09ecea50515dab7de256ebb007be0efd))
+
+### Cleaning and refactor
+
+* Remove package-lock.json ([`c206899`](https://github.com/Tykok/cedict-chinese-transformation/commit/c206899263541f72f224935763c738207f2060c6))
+
+# [2.6.0](https://github.com/Tykok/cedict-chinese-transformation/compare/v2.6.0...2.6.0)
+
+Release at : 2023-09-07
+
+### Features
+
+* Change english parse / search functions ([`b940a95`](https://github.com/Tykok/cedict-chinese-transformation/commit/b940a9521318fec5a5f82ba80311d78b3ab1f178))
+
+### Fixes
+
+* Return all occurence of a given string ([`c4871bb`](https://github.com/Tykok/cedict-chinese-transformation/commit/c4871bb157a4e40d064d20f527ecaff92d4700fa))
+
+### Configuration
+
+* Update workflows ([`c30f52e`](https://github.com/Tykok/cedict-chinese-transformation/commit/c30f52ebe90144bf275b805c27000dc1807475d4))
+* Update changelog ([`a64a29e`](https://github.com/Tykok/cedict-chinese-transformation/commit/a64a29e967db45b252fdc883f324a4005f32171a))
+* Update the on-push-develop.yml and make a on-pr-... ([`18eb109`](https://github.com/Tykok/cedict-chinese-transformation/commit/18eb1096c84c0522cf64f1b3b3763dcd4909eb5d))
+* Update cedict.json ([`f7356b9`](https://github.com/Tykok/cedict-chinese-transformation/commit/f7356b9844d593f2f0aded9309e5d7e26444eb3a))
+* Update cedict.json ([`9134cbe`](https://github.com/Tykok/cedict-chinese-transformation/commit/9134cbe35134e4a03ce7ed105d1d0d9ff1dcd25b))
+* Update cedict.json ([`0a9281b`](https://github.com/Tykok/cedict-chinese-transformation/commit/0a9281b6ec69d90336c9ad2255b7ba697e6409a1))
+
+### Cleaning and refactor
+
+* Remove package-lock.json ([`b0c7ea9`](https://github.com/Tykok/cedict-chinese-transformation/commit/b0c7ea9c19260a26b6bee92bec8d381d27e79ec0))
+
+# [v2.6.0](https://github.com/Tykok/cedict-chinese-transformation/compare/v2.5.0...v2.6.0)
+
+Release at : 2023-08-15
+
+### Configuration
+
+* Update cedict.json ([`bb804ae`](https://github.com/Tykok/cedict-chinese-transformation/commit/bb804aec7a593d2dc616e86a44376ddf031758f0))
+
+# [v2.5.0](https://github.com/Tykok/cedict-chinese-transformation/compare/v2.3.0...v2.5.0)
+
+Release at : 2023-07-15
+
+### Features
+
+* Change english parse / search functions ([`9192381`](https://github.com/Tykok/cedict-chinese-transformation/commit/919238138803f43d4d098d600346bc0cfc2afec4))
+
+### Fixes
+
+* Return all occurence of a given string ([`b5d4599`](https://github.com/Tykok/cedict-chinese-transformation/commit/b5d45996b63f8da00f47dd69665e55cf63cac7e3))
+
+### Configuration
+
+* Update the on-push-develop.yml and make a on-pr-... ([`7660980`](https://github.com/Tykok/cedict-chinese-transformation/commit/76609806246df3af71565ebb733018cfd00cbd48))
+* Update cedict.json ([`9c00460`](https://github.com/Tykok/cedict-chinese-transformation/commit/9c004606691c0cb8745db18d4f6732fd0212719a))
+
+# [v2.3.0](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.1...v2.3.0)
+
+Release at : 2023-06-15
+
+### Configuration
+
+* Update workflows ([`2cdfd32`](https://github.com/Tykok/cedict-chinese-transformation/commit/2cdfd329f72fa857adb9365aaa9f4cf159fa512a))
+* Update changelog ([`702607e`](https://github.com/Tykok/cedict-chinese-transformation/commit/702607ed44a9dc913c8579ee496b5da891306f23))
+* Update cedict.json ([`6512f63`](https://github.com/Tykok/cedict-chinese-transformation/commit/6512f63d09ecea50515dab7de256ebb007be0efd))
+
+### Cleaning and refactor
+
+* Remove package-lock.json ([`c206899`](https://github.com/Tykok/cedict-chinese-transformation/commit/c206899263541f72f224935763c738207f2060c6))
 
 # [2.2.1](https://github.com/Tykok/cedict-chinese-transformation/compare/2.2.0...2.2.1)
 
