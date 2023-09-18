@@ -36,10 +36,9 @@
     "url": "https://github.com/Tykok"
   },
   "bugs": {
-    "url": "https://github.com/Tykok/cedict-chinese-transformation/issues/new?assignees=octocat&labels=bug&template=bug.yml&title=Fix%3A+",
-    "email": ""
+    "url": "https://github.com/Tykok/cedict-chinese-transformation/issues/new?assignees=octocat&labels=bug&template=bug.yml&title=Fix%3A+"
   },
-  "homepage": "https://github.com/Tykok/cedict-chinese-transformation#readme",
+  "homepage": "https://tykok.github.io/cedict-chinese-transformation/",
   "license": "MIT",
   "devDependencies": {
     "@pictarine/release-note-now": "^1.0.8",
@@ -63,9 +62,14 @@
   },
   "keywords": [
     "cedict",
-    "dictionary",
     "chinese",
     "pinyin",
-    "translate"
+    "dictionary",
+    "learning",
+    "english",
+    "language",
+    "translate",
+    "node",
+    "typescript"
   ]
 }
