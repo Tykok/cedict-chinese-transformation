@@ -19,7 +19,7 @@ yarn add @tykok/cedict-dictionary
 To use the `Cedict` class, you simply need to import it from `@tykok/cedict-dictionary`.
 
 
-```ts
+```typescript
 import Cedict from '@tykok/cedict-dictionary'
 ```
 
@@ -34,7 +34,7 @@ console.log(Cedict.getByTraditional('上天入地'))
 
 You will get :
 
-```js
+```javascript
     { 
         traditional: "上天入地", 
         simplified: "上天入地", 
