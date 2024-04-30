@@ -57,7 +57,7 @@
   "dependencies": {
     "extract-zip": "^2.0.1",
     "fstream": "^1.0.12",
-    "superagent": "^8.0.3",
+    "superagent": "^9.0.2",
     "unzip": "^0.1.11"
   },
   "keywords": [
