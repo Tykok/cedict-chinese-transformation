@@ -1,6 +1,6 @@
 {
   "name": "@tykok/cedict-dictionary",
-  "version": "2.7.10",
+  "version": "2.7.11",
   "description": "The Cedict dictionary get and format the cedict to a JSON file",
   "main": "lib/index.js",
   "files": [
