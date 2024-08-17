@@ -1,6 +1,8 @@
 name: Auto merge 🤖
 on:
   pull_request_target:
+    paths:
+      - "package.json"
     types:
       - opened
       - synchronize
@@ -16,10 +18,10 @@ permissions:
 jobs:
   automerge:
     runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
     steps:
     - name: Enable Pull Request Automerge
-      uses: peter-evans/enable-pull-request-automerge@v2
-      if: github.actor == 'dependabot[bot]'
+      uses: peter-evans/enable-pull-request-automerge@v3
       with:
         token: ${{ secrets.PAT }}
         pull-request-number: ${{ github.event.number }}
