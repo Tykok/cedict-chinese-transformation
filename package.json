@@ -12,7 +12,6 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "postversion": "git push && git push --tags",
     "version": "npm run format && git add .",
     "build:watch": "tsc-watch --onFailure \"echo Something gone wrong... Fix it, or report a bug on $npm_package_repository_url\" --onSuccess \"echo All it's OK !\"",
     "start": "npm run build && node lib/index.js",
