@@ -23,7 +23,7 @@
     "rn": "release-note-now",
     "get-version": "echo $npm_package_version",
     "dev:docs": "mkdocs serve --watch docs",
-    "build:docs": "mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/",
+    "build:docs": "mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/"
   },
   "repository": {
     "type": "git",
