@@ -23,8 +23,7 @@
     "rn": "release-note-now",
     "get-version": "echo $npm_package_version",
     "dev:docs": "mkdocs serve --watch docs",
-    "build:docs": "mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/",
-    "changelog": "auto-changelog --config changelog-config.json"
+    "build:docs": "mkdocs build --clean --site-dir static/docs && rm static/docs/img/favicon.ico && cp static/favicon.ico static/docs/img/"
   },
   "repository": {
     "type": "git",
@@ -45,7 +44,6 @@
     "@types/jest": "^29.4.0",
     "@types/node": "^18.11.9",
     "@types/superagent": "^4.1.15",
-    "auto-changelog": "^2.4.0",
     "jest": "^29.4.0",
     "prettier": "^2.8.3",
     "ts-jest": "^29.0.5",
