@@ -12,7 +12,7 @@ const pathOfJSON = `${pathOfData}/cedict.json`;
 /**
  * Used to parse the cedict file given in the zip
  */
-const parseLine = (line: string): ChineseWord | null => {
+export const parseLine = (line: string): ChineseWord | null => {
   if (!line || line === '' || line.startsWith('#')) return null;
   const splitedLine = line.split(/\/(.*)/s);
   if (splitedLine.length <= 0) return null;
@@ -23,9 +23,7 @@ const parseLine = (line: string): ChineseWord | null => {
     const characters = charAndPinyin[0].split(' ');
     const traditional = characters[0];
     const simplified = characters[1];
-    let pinyin = charAndPinyin[1];
-    pinyin = pinyin.split(' ')[0] as unknown as string;
-    pinyin = pinyin.split(']')[0] as unknown as string;
+    const pinyin = charAndPinyin[1].split(']')[0] as string;
 
     return { traditional, simplified, pinyin, english };
   } catch (e: unknown) {
